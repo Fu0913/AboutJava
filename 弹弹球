@@ -1,0 +1,15 @@
+弹弹球TanQiuJFrame
+一.窗体类TanQiuJFrame
+	1.创建窗体类TanQiuJFrame，继承JFrame类
+	2.在TanQiuJFrame中创建它的对象
+	3.编写TanQiuJFrame类的构造方法，同时初始化这个窗体的属性
+	4.在TanQiuJFrame类的构造方法中，创建画布类对象jp
+	5.将画布类对象jp放到窗体类对象jf上
+	6.通过画布类对象，调用move()方法
+二、画布类TanQiuJPanel
+	1.创建画布类TanQiuJPanel，继承JPanel类
+	2.重写Paint方法，在paint方法里设置画布的背景色
+	3.创建move方法，用于编写小球的移动
+	4.实现MouseMotionListener接口，重写mouseMoved方法
+	5.创建TanQiuJPanel无参构造方法，添加一个鼠标监听实践
+
